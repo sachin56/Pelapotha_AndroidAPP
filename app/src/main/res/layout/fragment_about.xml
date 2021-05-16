@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@drawable/sp_bg"
+    android:orientation="vertical">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/bit"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/cvbg"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:background="@drawable/cv1"
+                android:layout_marginTop="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We At BitDot Technologies"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:text="BitDot Technologies is a software development company specializing in building scalable, robust web and mobile applications for your business. We are a full-service information technology company specializing in retail software applications development. Hard work, commitment, team spirit, customer loyalty, and creativity are all included at BitDot Technologies. At BitDot technologies our clients range from startup to large scale companies their ideas will be created using the latest Technologies. Our team continuously conduct research to give our clients the best solution and develop their ideas in various ways. Whenever you want to start or grow your company, try out new ventures, etc., we are ready to come up with the latest technical solutions."
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="120dp"/>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

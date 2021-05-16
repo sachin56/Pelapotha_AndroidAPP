@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SchoolBook">
+        <activity android:name=".gradetwosinhalareadingbook"></activity>
+        <activity android:name=".gradetwosinhalaworkbook" />
+        <activity android:name=".gradetwoislam" />
+        <activity android:name=".gradtwoecristian" />
+        <activity android:name=".gradetwokatholika" />
+        <activity android:name=".gradtwobuddist" />
+        <activity android:name=".gradetwomaths" />
+        <activity android:name=".gradeonesinhalareadingbook" />
+        <activity android:name=".gradeonesinhalaworkbook" />
+        <activity android:name=".gradeoneislam" />
+        <activity android:name=".gradeonecristian" />
+        <activity android:name=".gradeonekatholika" />
+        <activity android:name=".gradeonebuddist" />
+        <activity android:name=".gradeonemaths" />
+        <activity android:name=".gradefive" />
+        <activity android:name=".gradefour" />
+        <activity android:name=".gradethree" />
+        <activity android:name=".gradetwo" />
+        <activity android:name=".gradeone" />
+        <activity android:name=".Gradetweltothirtine" />
+        <activity android:name=".Gradetentoeleven" />
+        <activity android:name=".Gradesixtonine" />
+        <activity android:name=".GradeOneToFive" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
